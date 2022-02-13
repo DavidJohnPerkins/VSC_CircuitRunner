@@ -2,7 +2,7 @@
 
 namespace CircuitRunner
 {
-    public class TerminalNode : Node
+    public class TerminalNode :  //Node
     {
 
         public CollectionBase<Terminal> Terminals;

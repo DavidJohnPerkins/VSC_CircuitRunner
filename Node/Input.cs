@@ -1,11 +1,14 @@
 ﻿using System;
 namespace CircuitRunner
 {
-    public class Input : Node
+    public class Input : EventRaiser
     {
-        Input()
+        public void SetState(bool newState)
         {
-            RaiseEvents = true;
+            if (newState != State) {
+                RaiseNotification(newState);
+                State = newState;
+            }
         }
     }
 }

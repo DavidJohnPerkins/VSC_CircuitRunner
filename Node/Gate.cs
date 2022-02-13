@@ -1,7 +1,7 @@
 ﻿using System;
 namespace CircuitRunner
 {
-    public class Gate : TerminalNode
+    public class Gate : EventRaiser, EventSubscriber
     {
         public string Type
         {

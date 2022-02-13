@@ -8,16 +8,19 @@ namespace CircuitRunner
         private readonly bool _verbose = true;
         protected bool _state;
 
+        /*
         public string ParentId
         {
             get; set;
         }
+        */
 
+        /*
         public bool RaiseEvents
         {
             get; set;
         }
-
+        */
         public override bool State
         {
             get => _state;

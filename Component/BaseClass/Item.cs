@@ -9,11 +9,9 @@ namespace CircuitRunner
             get;
             set;
         }
-
-        public virtual bool State
+        public string ParentId
         {
-            get;
-            set;
+            get; set;
         }
 
         public bool Equals(Item other)

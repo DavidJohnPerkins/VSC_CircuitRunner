@@ -9,8 +9,7 @@ namespace CircuitRunner
 
     public class StateChangedEventArgs : EventArgs
     {
-        public string ParentId { get; set; }
-        public string NodeId { get; set; }
+        public string NotifierId { get; set; }
         public bool NewState { get; set; }
     }
 }
